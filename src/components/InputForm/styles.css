@@ -1,0 +1,62 @@
+.inputForm {
+  background-color: #fff;
+  width: 600px;
+  height: 600px;
+  margin-top: 25%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.closeButton {
+  background-color: transparent;
+  color: red;
+  border: none;
+  padding: 0;
+  font-size: 32px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  background-color: red;
+  color: #eee;
+}
+
+.inputFields {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.individualInput {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.inputBox {
+  width: 64px;
+  height: 28px;
+  font-size: 20px;
+  margin-left: 12px;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.submitButton {
+  width: 90px;
+  height: 45px;
+  font-size: 22px;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: rgb(48, 101, 48);
+  color: #eee;
+}
+

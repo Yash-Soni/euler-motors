@@ -1,0 +1,10 @@
+.App {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.icons {
+  background-color: transparent;
+  border: none;
+  margin-left: 12px;
+  cursor: pointer;
+}

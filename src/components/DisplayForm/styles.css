@@ -1,0 +1,33 @@
+.displayForm {
+  background-color: #fff;
+  width: 600px;
+  height: 600px;
+  margin-top: 25%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.formFields {
+  margin-left: 12px;
+}
+
+.formField {
+  margin-top: 12px;
+}
+
+.formTitle {
+  width: 100%;
+  text-align: center;
+}
+
+.dropdownComp {
+  margin-bottom: 12px;
+}
+
+.radioOption {
+  padding-left: 8px;
+}
