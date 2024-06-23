@@ -1,7 +1,7 @@
 import './styles.css'
 
 const DropDownComp = ({dropdownObj}) => {
-  console.log('dropdownObj: ', dropdownObj);
+
   return (
     <div className='dropdownComp'>
       <label>{dropdownObj.fieldName}</label>

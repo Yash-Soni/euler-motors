@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './styles.css'
 
 const RadioComp = ({radioObj}) => {
-  console.log('radioObj', radioObj);
   const [selectedOption, setSelectedOption] = useState('')
   const handleChange = (item) => {
     setSelectedOption(item)

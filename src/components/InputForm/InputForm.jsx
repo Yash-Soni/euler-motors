@@ -109,10 +109,6 @@ const InputForm = () => {
     }
   }
 
-  // const addFieldName = (newName, ) => {
-  //   set
-  // }
-
   return (
     <div>
       Input Form: 
@@ -141,7 +137,6 @@ const InputForm = () => {
                 />
                 {state.dropdownCount > 0 && 
                   Array.from({ length: state.dropdownCount}).map((_, index) => {
-                    console.log('index is: ', index);
                     return (
                     <div key={index}>
                       <BasicDetails details={dropdownDetails} setDetails={setDropdownDetails} index={index} />

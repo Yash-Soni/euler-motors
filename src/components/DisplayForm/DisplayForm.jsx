@@ -4,7 +4,7 @@ import './styles.css'
 import RadioComp from './RadioComp'
 
 const DisplayForm = ({ displayForm, setDisplayForm, formDetails}) => {
-  
+
   return (
     <>
       <Modal open={displayForm} >
@@ -31,7 +31,6 @@ const DisplayForm = ({ displayForm, setDisplayForm, formDetails}) => {
                       <DropDownComp dropdownObj = {inputField.data[index]} />
                     )))
                 } else {
-                  console.log('radio input field', inputField);
                   return (
                     Array.from({ length: inputField.count }).map((_, index) => (
                       <RadioComp radioObj = {inputField.data[index]} />
